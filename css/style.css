@@ -6,14 +6,6 @@ body  {
   height: 450px;
 }
 
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
 .clearfix::after{
   content: "";
   display: block;
@@ -29,27 +21,35 @@ body  {
   background-color: #00ff51;
   height: 250px;
   width: 150px;
+  float: left;
 }
 
 .purplebox{
   background-color: #cc00db;
   height: 50px;
+  width: 150px;
+  float: left;
 }
 
 .bluebox{
   background-color: #0093b7;
   height: 100px;
+  width: 150px;
+  float: left;
 }
 
 .orangebox{
   background-color: #ff9e6b;
   width: 100px;
   height: 150px;
+  float: right;
 }
 
 .brownbox{
   background-color: #8c2727;
   height: 100px;
+  width: 250px;
+  float: left;
 }
 
 .yellowbox{
