@@ -1,19 +1,23 @@
 @charset "utf-8";
 
-body  {
-  width: 400px;
-  height: 450px;
-}
-
 .clearfix::after{
   content: "";
   display: block;
   clear: both;
 }
 
+.boxA{
+  float: left;
+}
+
+.boxB{
+  float: left;
+}
+
 .redbox{
   background-color: #ff0000;
   height: 100px;
+  width: 400px;
 }
 
 .greenbox{
@@ -27,31 +31,29 @@ body  {
   background-color: #cc00db;
   height: 50px;
   width: 150px;
-  float: left;
 }
 
 .bluebox{
   background-color: #0093b7;
   height: 100px;
   width: 150px;
-  float: left;
-}
-
-.orangebox{
-  background-color: #ff9e6b;
-  width: 100px;
-  height: 150px;
-  float: right;
 }
 
 .brownbox{
   background-color: #8c2727;
   height: 100px;
   width: 250px;
+}
+
+.orangebox{
+  background-color: #ff9e6b;
+  width: 100px;
+  height: 150px;
   float: left;
 }
 
 .yellowbox{
   background-color: #fff700;
   height: 100px;
+  width: 400px;
 }
